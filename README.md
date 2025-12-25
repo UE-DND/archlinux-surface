@@ -78,19 +78,19 @@ See the [feature matrix](https://github.com/linux-surface/linux-surface/wiki/Sup
 
 ## Installation and Setup
 
-We provide package repositories for the patched kernel and other utilities.
+We provide an Arch Linux package repository for the patched kernel and other utilities.
 Please refer to the [detailed installation and setup guide][wiki-setup].
 There, you may also find device-specific caveats.
 In case you have disk encryption set up or plan to use it, take care to follow the respective instructions in the installation guide and have a look at the respective [wiki page][wiki-encryption].
 After installation, you may want to have a look at the [wiki][wiki] and the `contrib/` directory for useful tweaks.
 
-If you want to compile the kernel yourself (e.g. if your distribution is not supported), please have a look at the [wiki][wiki-compiling].
+If you want to compile the kernel yourself, please have a look at the [wiki][wiki-compiling].
 
 ## Additional Information
 
 ### Notes
 
-* If you are getting stuck at boot when loading the ramdisk, you need to install the Processor Microcode Firmware for Intel CPUs (usually found under Additional Drivers in Software and Updates).
+* If you are getting stuck at boot when loading the ramdisk, install the Intel microcode package (e.g. `intel-ucode` on Arch).
 * Using TLP can cause slowdowns, laggy performance, and occasional hangs if not configured properly! You have been warned.
 * If you want to use hibernate instead of suspend, you need to create a swap partition or file, please follow your distribution's instructions (or [here][hibernate-setup]).
 
@@ -116,7 +116,7 @@ License texts can be obtained at https://github.com/torvalds/linux/tree/master/L
 [matrix-support]: https://matrix.to/#/#linux-surface-support:matrix.org
 [matrix-development]: https://matrix.to/#/#linux-surface-development:matrix.org
 
-[hibernate-setup]: https://fitzcarraldoblog.wordpress.com/2018/07/14/configuring-lubuntu-18-04-to-enable-hibernation-using-a-swap-file
+[hibernate-setup]: https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#Hibernation
 [releases]: https://github.com/linux-surface/linux-surface/releases
 
 [linux-surface-kernel]: https://github.com/linux-surface/kernel/

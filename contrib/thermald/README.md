@@ -3,7 +3,7 @@
 This is a minimal thermald configuration, which sets the maximum sustained CPU temperature to about 65°C.
 Modify the `<Temperature>65000</Temperature>` value to adapt that to your liking.
 
-Tested on a Surface Book 2, other devices may need adapting, see e.g. the [thermald man page](http://manpages.ubuntu.com/manpages/trusty/man5/thermal-conf.xml.5.html).
+Tested on a Surface Book 2, other devices may need adapting; see the `thermal-conf.xml` man page (`man 5 thermal-conf.xml`).
 
 More complex and device specific examples can be found in subdirectories
 If any subdirectory does not have both files or any dedicated instructions, use the missing files provided here and/or follow these instructions.

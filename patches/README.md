@@ -9,8 +9,8 @@ Please direct any pull-requests for new patches and kernel functionality to this
 ## Maintained Versions
 
 The currently maintained versions are
-- [`6.1`](https://github.com/linux-surface/kernel/tree/v6.1-surface) (latest Fedora)
-- [`6.2`](https://github.com/linux-surface/kernel/tree/v6.2-surface) (latest Arch Linux / Ubuntu)
+- [`6.1`](https://github.com/linux-surface/kernel/tree/v6.1-surface)
+- [`6.2`](https://github.com/linux-surface/kernel/tree/v6.2-surface)
 
 Any other versions are only included for historical purposes.
 Unmaintained versions will likely (if necessary with a bit of re-basing) still work, but will not have the latest changes (so please don't report bugs for those).

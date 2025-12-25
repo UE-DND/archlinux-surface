@@ -5,7 +5,7 @@
 4. Copy the `thermal-cpu-cdev-order.xml` file into the `/etc/thermald/` directory
 5. Run `sudo systemctl restart thermald`
 
-# Making Fedora respect your config files
-Fedora uses the `--adaptive` option by default, thus ignoring your config files. This might also apply to some other distros.
+# Making thermald respect your config files
+Some distributions enable the `--adaptive` option by default, which ignores manual config files.
 
 Edit `/usr/lib/systemd/system/thermald.service` and remove `--adaptive` from the `ExecStart=` line. Then do a `systemctl daemon-reload` so systemd realizes the change. Thermald should then respect your configuration files.
